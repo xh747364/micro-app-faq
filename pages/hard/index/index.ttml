@@ -1,0 +1,3 @@
+<view class="card" tt:for="{{questions}}" tt:key="{{item.id}}" bindtap="questionDetail" data-path="{{item.path}}">
+  <view>{{item.title}}</view>
+</view>

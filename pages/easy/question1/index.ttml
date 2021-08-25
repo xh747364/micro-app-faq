@@ -1,0 +1,4 @@
+<view class="card">初级-问题1</view>
+<view class="card">
+  <view>问题描述：在配置webview域名时候，校验文件已经放到服务器上，但还是提示【校验出错，请检查校验文件是否配置正确】</view>
+</view>

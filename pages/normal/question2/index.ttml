@@ -1,0 +1,11 @@
+<view class="card">中级-问题2</view>
+<view class="card">
+  <view>问题描述：使用 websocket 发送二进制数据在 IDE 正常，但是真机调试，服务端收到的是 String 类型的数据，请使用真机调试</view>
+  <view class="remark">注：本题中只有发送 String 类型数据 才会接收到消息，发送其他类型消息不会返回</view>
+</view>
+<view class="card">
+  <button bindtap="sendMessageAB">发送二进制数据</button>
+</view>
+<view class="card">
+  <text>{{text}}</text>
+</view>

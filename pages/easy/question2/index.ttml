@@ -1,0 +1,8 @@
+<view class="card">初级-问题2</view>
+<view class="card">
+  <view>问题描述：使用video播放竖屏的视频时，如何使全屏播放时也是竖屏</view>
+</view>
+
+<view class="card">
+  <video src="https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_wwhpupt_ylwvslclk/ljhwZthlaukjlkulzlp/answer/active-video7.mp4"></video>
+</view>

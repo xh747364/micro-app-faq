@@ -1,0 +1,23 @@
+{
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "newFeature": false,
+        "postcss": false,
+        "mockUpdate": false,
+        "minified": false,
+        "nodeModules": false,
+        "scripts": true,
+        "mockLogin": false
+    },
+    "appid": "testAppId",
+    "projectname": "thedifference",
+    "condition": {
+        "miniprogram": {
+            "current": -1
+        }
+    },
+    "scripts": {
+        "afterOpen": "npm i && npm run build && npm start"
+    }
+}

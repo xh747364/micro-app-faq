@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/easy/index/index",
+    "pages/easy/question1/index",
+    "pages/easy/question2/index",
+    "pages/easy/question3/index",
+    "pages/easy/question4/index",
+    "pages/easy/question5/index",
+    "pages/easy/question6/index",
+    "pages/easy/question7/index",
+    "pages/normal/index/index",
+    "pages/normal/question1/index",
+    "pages/normal/question2/index",
+    "pages/normal/question3/index",
+    "pages/normal/question4/index",
+    "pages/hard/index/index",
+    "pages/hard/question1/index",
+    "pages/hard/question2/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "大家来找茬",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/easy/index/index",
+        "text": "初级",
+        "iconPath": "image/easy.png",
+        "selectedIconPath": "image/easy-select.png"
+      },
+      {
+        "pagePath": "pages/normal/index/index",
+        "text": "中级",
+        "iconPath": "image/normal.png",
+        "selectedIconPath": "image/normal-select.png"
+      },
+      {
+        "pagePath": "pages/hard/index/index",
+        "text": "高级",
+        "iconPath": "image/hard.png",
+        "selectedIconPath": "image/hard-select.png"
+      }
+    ]
+  }
+}

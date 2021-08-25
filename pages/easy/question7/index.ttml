@@ -1,0 +1,7 @@
+<view class="card">初级-问题7</view>
+<view class="card">
+  <view>问题描述：在使用 rich-text 组件时候无法解析【<】、【>】等特殊字符，</view>
+</view>
+<view class="card">
+  <rich-text nodes="{{content}}"></rich-text>
+</view>

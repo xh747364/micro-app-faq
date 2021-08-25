@@ -1,0 +1,9 @@
+<view class="card">高级-问题1</view>
+<view class="card">
+  <view>问题描述：服务端支付签名一直报签名错误，请根据提供的密钥和订单参数JSON生成正确的签名(sign)</view>
+</view>
+<view class="card">
+  <button bindtap="login">登录</button>
+  <button bindtap="createOrder">预下单</button>
+  <button bindtap="payOrder">支付</button>
+</view>

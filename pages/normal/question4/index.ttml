@@ -1,0 +1,4 @@
+<view class="card">中级-问题4</view>
+<view class="card">
+  <view>问题描述：连续调用 tt.login 在 iOS 上报错 【login:fail login is in progress, please do not call again】，请使用iOS真机调试</view>
+</view>

@@ -1,0 +1,4 @@
+<view class="card">初级-问题4</view>
+<view class="card">
+  <view>问题描述：本地测试请求正常，提交审核后请求报错【url is not valid domain】</view>
+</view>

@@ -1,0 +1,5 @@
+<view class="card">中级-问题1</view>
+<view class="card">
+  <view>问题描述：在小程序切入后台（注：是点击小程序右上角【×】切入后台，而不是APP切入后台）后调用 tt.request 会触发报错 【request: fail app in background】</view>
+</view>
+<view class="card">复现路径：使用抖音iOS搜索【大家来找茬】小程序，进入该页面，点击右上角【×】，等待6秒后再从搜索结果页进入即可复现</view>

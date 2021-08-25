@@ -1,0 +1,23 @@
+<view class="card">高级-问题2</view>
+<view class="card">
+  <view>问题描述：1、担保交易有一笔订单，分两部分退款，结果只收到一笔订单的退款，但是接口提示退单成功</view>
+</view>
+<view class="card">
+  <view>问题描述：2、调用服务端退款接口，一直处于退款中</view>
+</view>
+
+<view class="card">
+  <button bindtap="login">登录</button>
+  <button bindtap="getOrder">获取订单</button>
+</view>
+
+<view class="card" tt:for="{{orderList}}">
+  <view class="order-wrap">
+    <view>订单号：{{item.orderid}}</view>
+    <view>订单金额：{{item.total_amount}}</view>
+  </view>
+  <button bindtap="reimburse" data-index="{{index}}">退款</button>
+</view>
+<view class="card" tt:if="{{orderList.length == 0 && openid != ''}}">
+  暂无订单
+</view>

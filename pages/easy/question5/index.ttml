@@ -1,0 +1,4 @@
+<view class="card">初级-问题5</view>
+<view class="card">
+  <view>问题描述：调用 tt.login 返回 【login: fail invalid appid touristappid】</view>
+</view>

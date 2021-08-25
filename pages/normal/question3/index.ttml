@@ -1,0 +1,10 @@
+<view class="card">中级-问题3</view>
+<view class="card">
+  <view>问题描述：已授权订阅消息成功，但是后台请求接口返回【该用户未订阅】</view>
+  <view class="remark">注：该模板为头条端模板，请在头条端调试</view>
+</view>
+<view class="card">
+  <button bindtap="getAccessToken">获取 access_token</button>
+  <button bindtap="login">获取 openid</button>
+  <button bindtap="subscribeMessage">订阅消息</button>
+</view>

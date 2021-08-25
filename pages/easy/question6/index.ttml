@@ -1,0 +1,4 @@
+<view class="card">初级-问题6</view>
+<view class="card">
+  <view>问题描述：tt.getExtConfig 可以获取到 ext.json 中配置的 ext 字段，而 tt.getExtConfigSync 获取不到</view>
+</view>

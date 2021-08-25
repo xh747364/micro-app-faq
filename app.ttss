@@ -1,0 +1,25 @@
+#app{
+  background: #f5f5f5;
+  font-size: 32rpx;
+  padding-top: 30rpx;
+  box-sizing: border-box;
+}
+
+.card{
+  width: calc(94% - 30rpx);
+  margin: 0 auto 30rpx;
+  background: #ffffff;
+  padding: 30rpx 20rpx;
+}
+
+.remark{
+  color: #f23838;
+}
+
+button{
+  margin-bottom: 20rpx;
+}
+
+button:last-of-type{
+  margin-bottom: 0;
+}

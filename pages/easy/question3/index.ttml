@@ -1,0 +1,9 @@
+<view class="card">初级-问题3</view>
+<view class="card">
+  <view>问题描述：在使用 tt:if 判断 variable == 00 时候不生效，且预览报错</view>
+</view>
+<view class="card">
+  <view>示例：解开下面注释的代码，即可复现</view>
+  <!-- <view tt:if="{{variable == 00}}">true</view>
+  <view tt:else>false</view> -->
+</view>
