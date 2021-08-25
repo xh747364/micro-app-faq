@@ -47,5 +47,6 @@ App({
   },
   onLaunch: function () {
     console.log('当前服务地址::', this.getDomain())
+    console.log('问题提交格式');
   }
 })
