@@ -12,10 +12,16 @@ Page({
         },
         fail: (err) => {
           console.error("请求失败：", err);
-          tt.showModal({
-            title: "网络错误",
-            content: JSON.stringify(err),
-          });
+          /**
+           * 
+           * 可在onShow时增加判断取消弹窗。
+           * 在后台失败时，弹窗也不能被用户看到，也可取消弹窗提示。
+           * 如果这个请求比较重要，可记录请求失败的状态，在onShow时重新尝试发送
+           */
+          // tt.showModal({
+          //   title: "网络错误",
+          //   content: JSON.stringify(err),
+          // });
         }
       });
     }, 8000)

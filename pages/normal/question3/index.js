@@ -27,8 +27,11 @@ Page({
           method: "POST",
           data: {
             access_token: this.data.access_token,
-            appid: "ttba89cc3425b1d98b01",
-            tplid: "MSG123251735bc0f19005a318abdce9ad79e8b982113929",
+            /**
+             * 参数名写错了
+             */
+            app_id: "ttba89cc3425b1d98b01",
+            tpl_id: "MSG123251735bc0f19005a318abdce9ad79e8b982113929",
             open_id: this.data.openid,
             data: {
               "查询内容": "示例",

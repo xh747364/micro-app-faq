@@ -6,7 +6,8 @@ const createOrderUrl = 'https://developer.toutiao.com/api/apps/ecpay/v1/create_o
 const repayOrderUrl = 'https://developer.toutiao.com/api/apps/ecpay/v1/create_refund';
 
 const SALT = payConf.salt;
-const exclude = ['sign', 'appid', 'thirdparty_id'];
+// 字段名写错了
+const exclude = ['sign', 'app_id', 'thirdparty_id'];
 const app_id = payConf.appid;
 
 function md5(str: string) {

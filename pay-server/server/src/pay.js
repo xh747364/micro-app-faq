@@ -21,7 +21,8 @@ var pay_json_1 = __importDefault(require("../pay.json"));
 var createOrderUrl = 'https://developer.toutiao.com/api/apps/ecpay/v1/create_order';
 var repayOrderUrl = 'https://developer.toutiao.com/api/apps/ecpay/v1/create_refund';
 var SALT = pay_json_1["default"].salt;
-var exclude = ['sign', 'appid', 'thirdparty_id'];
+// 字段名写错了
+var exclude = ['sign', 'app_id', 'thirdparty_id'];
 var app_id = pay_json_1["default"].appid;
 function md5(str) {
     var _md5 = crypto_1["default"].createHash('md5');

@@ -82,7 +82,10 @@ Page({
   sendMessageAB: function () {
     let that = this;
     if (this.socket) {
-      let ab = new Uint8Array(10);
+      /**
+       * 发送的是ArraryBuffer
+       */
+      let ab = (new Uint8Array(10)).buffer;
       this.socket.send({
         data: ab,
         success() {
